@@ -50,9 +50,6 @@ public class VoteService {
     }
 
     public List<Person> getAll() {
-        // List<Person> list = new ArrayList<>();
-        // repository.findAll().forEach(list::add);
-        // return list;
         return repository.findAll();
     }
 }
