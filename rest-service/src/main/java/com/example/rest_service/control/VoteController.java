@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.rest_service.entity.Person;
-import com.example.rest_service.entity.PersonEnum;
 import com.example.rest_service.service.VoteService;
 
 @RestController
